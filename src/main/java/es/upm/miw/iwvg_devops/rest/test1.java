@@ -4,5 +4,5 @@ public class test1 {
     String test;
     int i = 1;
     int x = 2;
-    int y = 5;
+    int y = 4;
 }
