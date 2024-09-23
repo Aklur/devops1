@@ -26,6 +26,7 @@ public class Badge {
         int widthValue = TEXT_MARGIN + CHARACTER_WIDTH * value.length();
         int textWidth = widthLabel + widthValue;
         int middleLabel = widthLabel / 2;
+        int ok = 2;
         int middleValue = widthLabel + widthValue / 2;
         return String.format(BADGE_IMAGE, textWidth, textWidth, widthLabel, widthValue, widthLabel, textWidth,
                 middleLabel, label, middleLabel, label, middleValue, value, middleValue, value);
